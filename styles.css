@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+:root{
+    --off-white:#fefce8;
+    --positive-color:#5CDB95;
+    --primary-text: #4f46e5;
+    --danger-color: #f87171;
+    --neutral-color: #a8a29e;
+    --primary-color:#7dd3fc;
+
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;;
+    color: var(--primary-text);
+    background-image: url(stocks.jpg);
+    display:flex; 
+    flex-direction:column; 
+    
+}
+
+
+input{
+    font-size: large;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: var(--primary-text);
+}
+main{
+    
+    margin: auto;
+    text-align: center;
+    width: 35rem;
+    height: 65%;
+    border-radius: 0.3rem;
+    background-color: var(--primary-color);
+    
+
+}
+
+.gif-container{
+    margin: auto;
+    text-align: center;
+    height: 15rem;
+    
+
+}
+.hero{
+    margin-top: 0.6rem;
+    height: 13rem;
+    border-radius: 0.3rem;
+    border: 2px solid var(--off-white);
+    background-color: var(--off-white);
+
+}
+
+
+
+ .btn-primary {
+    background-color: var(--primary-text);
+    color: var(--off-white);
+    border-radius: 0.5rem;  
+    padding: 0.8rem 1rem;
+    border: none;
+    font-size: 1.2rem;
+    margin: 1.7rem auto;
+    display: block;
+    cursor: pointer;
+ }
+
+
+label{
+    display: block;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+ }
+
+ h1{
+    font-size: 1.7rem;
+ }
+ 
+
+
+#message{
+    margin-top: 0rem;
+    height: 6rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+@media (max-width:550px){
+
+    body{
+        
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;;
+        color: var(--primary-text);
+        background-image: url(stocks.jpg);
+        display:flex; 
+        flex-direction:column; 
+        
+    }
+
+    main{
+        margin: auto;
+        text-align: center;
+        width: 94%;
+        /* height: 28rem; */
+        border-radius: 0.4rem;
+        background-color: var(--primary-color);
+    
+    }
+
+
+    .gif-container{
+        margin: auto;
+        text-align: center;
+        height: 11rem;
+    
+    }
+    .hero{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        height: 10rem;
+        border-radius: 0.5rem;
+        border: 2px solid var(--off-white);
+        background-color: var(--off-white);
+    
+    }
+
+
+}
+
