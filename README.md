@@ -20,7 +20,7 @@ This is a profit or loss calculator given initial and current value of stocks wi
   - Restrict the user to enter only numbers.
   - edge cases resolved like prompt on empty inputs, error messages shown when quantity is negative or 0, stock prices accept zero but not negative values
 
-- Bonus Features: app changes theme on different scenarios of profit, loss or breakeven.
+- Bonus Features: app changes theme and uses gifs on different scenarios of profit, loss or breakeven. 
 
 - Bonus Features: app is responsive.
 
