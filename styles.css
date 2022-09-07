@@ -28,6 +28,19 @@ input{
     border-radius: 0.3rem;
     border: var(--primary-text);
 }
+
+/* Chrome, Safari, Edge, Opera - hide scroll arrows in input field */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox - hide scroll arrows in input field */
+input[type = number] {
+    -moz-appearance: textfield;
+}
+
 main{
     
     margin: auto;
